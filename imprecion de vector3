@@ -1,0 +1,11 @@
+package vectores_prac;
+import java.util.Scanner;
+public class vec3 {
+    public static void main(String[] args) {
+        int[] Numero = {1, 2, 3};
+        Scanner leer = new Scanner(System.in);
+        System.out.print("Posición a imprimir: ");
+        int i = leer.nextInt();
+        System.out.println(Numero[i]);
+    }
+}
