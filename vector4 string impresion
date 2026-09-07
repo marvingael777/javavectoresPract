@@ -1,0 +1,15 @@
+package vectores_prac;
+import java.util.Scanner;
+public class vec4 {
+    public static void main(String[] args) {
+
+        String[] nombre = {"Ale", "Vero", "Juan", "Itzel"};
+
+        Scanner leer = new Scanner(System.in);
+
+        System.out.print("¿Qué posición quieres imprimir (0-3)? ");
+        int i = leer.nextInt();
+
+        System.out.println(nombre[i]);
+    }
+}
