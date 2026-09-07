@@ -1,0 +1,17 @@
+package vectores_prac;
+//imprecion de vector
+public class Vectores_Prac {
+    public static void main(String[] args) {
+        int numero[] = new int[3];
+//declarar vector
+        numero[0] = 1;
+        numero[1] = 2;
+        numero[2] = 3;
+//asignar valor a cada pocicion
+        System.out.println("DATOS DEL VECTOR");
+        for (int f=0;f<3;f++){
+            System.out.println(numero[f]);
+//for para imprimir en un ciclo
+        }
+    }
+}
